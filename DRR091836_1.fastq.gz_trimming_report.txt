@@ -1,0 +1,108 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: DRR091836_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.3
+Cutadapt version: 2.5
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TGGAATTCTCGGGTGCCAAGG' (user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 17 bp
+Maxiumum tolerated read length after trimming (for smallRNA trimming): 40 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 2.5 with Python 3.6.7
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a TGGAATTCTCGGGTGCCAAGG DRR091836_1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 322.97 s (17 us/read; 3.63 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              19,544,177
+Reads with adapters:                19,412,983 (99.3%)
+Reads written (passing filters):    19,544,177 (100.0%)
+
+Total basepairs processed:   996,753,027 bp
+Quality-trimmed:               2,086,918 bp (0.2%)
+Total written (filtered):    435,524,018 bp (43.7%)
+
+=== Adapter 1 ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGG; Type: regular 3'; Length: 21; Trimmed: 19412983 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Bases preceding removed adapters:
+  A: 11.7%
+  C: 14.5%
+  G: 10.0%
+  T: 63.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	29597	4886044.2	0	29597
+2	7161	1221511.1	0	7161
+3	3931	305377.8	0	3931
+4	2086	76344.4	0	2086
+5	1750	19086.1	0	1750
+6	778	4771.5	0	778
+7	1086	1192.9	0	1086
+8	1373	298.2	0	1373
+9	2197	74.6	0	2123 74
+10	3755	18.6	1	3273 482
+11	3725	4.7	1	3285 440
+12	6645	1.2	1	5220 1425
+13	11913	0.3	1	9048 2865
+14	10454	0.1	1	8907 1547
+15	12243	0.0	1	10279 1964
+16	25996	0.0	1	24799 1197
+17	145132	0.0	1	140698 4434
+18	413086	0.0	1	401722 11129 235
+19	748770	0.0	1	703563 44752 455
+20	183966	0.0	2	171639 11482 845
+21	49809	0.0	2	47713 1736 360
+22	51087	0.0	2	44964 4258 1865
+23	64143	0.0	2	57234 5045 1864
+24	47994	0.0	2	43490 3685 819
+25	35948	0.0	2	32600 2710 638
+26	84528	0.0	2	70555 10658 3315
+27	613864	0.0	2	575625 31790 6449
+28	1703681	0.0	2	1626597 68050 9034
+29	7555313	0.0	2	7292784 240283 22246
+30	2880176	0.0	2	2746809 118238 15129
+31	3508016	0.0	2	3329040 150283 28693
+32	296847	0.0	2	277815 15672 3360
+33	132986	0.0	2	120051 12250 685
+34	105471	0.0	2	95081 9774 616
+35	82564	0.0	2	77991 4231 342
+36	105748	0.0	2	99757 5546 445
+37	74313	0.0	2	70296 3726 291
+38	71387	0.0	2	65078 5686 623
+39	68357	0.0	2	64048 3957 352
+40	58507	0.0	2	55320 2964 223
+41	57604	0.0	2	54857 2443 304
+42	37008	0.0	2	34954 1856 198
+43	27702	0.0	2	25547 1942 213
+44	25714	0.0	2	23601 1878 235
+45	12539	0.0	2	11771 662 106
+46	6943	0.0	2	6428 457 58
+47	2499	0.0	2	2336 141 22
+48	1945	0.0	2	1762 160 23
+49	4256	0.0	2	3773 458 25
+50	676	0.0	2	535 118 23
+51	29714	0.0	2	26222 2962 530
+
+RUN STATISTICS FOR INPUT FILE: DRR091836_1.fastq.gz
+=============================================
+19544177 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 17 bp:	677880 (3.5%)
+Sequences removed because after trimming they were longer than the maximum length cutoff of 40 bp:	147644 (0.8%)
+
