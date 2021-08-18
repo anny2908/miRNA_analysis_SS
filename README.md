@@ -7,10 +7,10 @@ Este repositorio almacena los datos complementarios del reporte de liberacion de
 En las carpetas `miRBase_hairpin` y `miRBase_mature` se encuentran los  resultados de las figuras y archivos de expresión diferencial de perfiles de expresión de RNA-seq para los miRNA precursores (hairpin) y maduros respectivamente. 
 
 ![](./miRBase_hairpin/mature_log2CPM_sample_distances_heatmap.png)
-
 Se encuentran los reportes generales de cada proceso. 
 
-##Referencias
+#Referencias
 
 [1] smrnaseq » nf-core. Accessed August 17, 2021. https://nf-co.re/smrnaseq/1.0.0/usage
+
 [2] BioProject - NCBI. [Internet]. BioProject: National Library of Medicine (US), National Center for Biotechnology Information; [1988]. Accession No. ID 388974, Homo sapiens microRNA expression profile of castration-resistant prostate cancer; [cited 2021/August/17]. Available from: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJDB509
